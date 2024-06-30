@@ -152,7 +152,6 @@ function hendleSubmitData() {
         <div class="modal" v-if="showPopup">
           <div class="modal-box">
             <h3 class="text-lg font-bold">ยืนยันข้อมูล</h3>
-            <p class="py-4">This modal works with a hidden checkbox!</p>
             <div class="modal-action">
               <RouterLink to="/home"
                 ><label for="my_modal_6" class="btn" @click="hendleSubmitData">ตรวจสอบ</label></RouterLink
